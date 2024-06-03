@@ -2,96 +2,126 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sean Liu
     - name: Date of Birth
-      value: 14th March 1879
+      value: 28th January 2001
     - name: Languages
-      value: English, German
+      value: Mandarin, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Student
+      institution: University of Minnesota, Twin Cities
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Vision & Imaging Laboratory. Supervisor:\ Dr. Stephen Engel
+        - Attention, Memory, and Cognition Lab. Supervisor:\ Dr. Vanessa Lee
+        - title: Research interest
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Visual perception, Visual plasticity.
+            - Visual attention, Implicit learning.
+    - title: Bachelor
+      institution: Beijing Normal University
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - BS in Psychology, GPA:\ 90.65/100.
+        - Thesis: Serial dependence in the perception of looming stimuli
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Project Leader
+      institution: Beijing Normal University
+      year: Nov 2019 - Jul 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Directional Congruency Effect of Time Perception Induced by Audiovisual Stimuli.
+        - This project intended to comprehensively evaluate the modulation feasibility of the visual phenomenon that looming stimuli is perceived as longer in duration than receding objects through the implied movement of concurrent static cues or self-movement.
+        - Independently designed experiment on top of temporal bisection task with the modulation of implied-motion or self-movement through mobile stimuli. Implied-motion direction was given through human character rendering from perspectives, while the implied body-movement was manipulated through optic flow toward the subjects.
+        - Designed complex auditorial materials using Logic Pro X and optical patterns for the experiment. Meanwhile, coordinated 100+ participants to accomplish this experiment.
+        - Generated visually and auditorily manipulable looming and receding stimuli in Matlab(stimuli features like size, position, original speed, acceleration and dB reduction rate are user-adjustable).
+    - title: Research Assistant
+      institution: Chinese Academy of Sciences
+      year: Sep 2020 - Sep 2021
       description:
-        - Description 1.
-        - Description 2.
+        - The Dynamic Formation of Interpersonal Trust:\ Evidence from the Trust Game.
+        - An interactive investigation on how real personal experience and prior reputation influenced the investment decisions in the trust game across different ages. This project also targeted to explore a possible trajectory between personalities like Machiavellianism with the accelerated investment rates and strategies.
+        - Proposed and designed an enhanced experiment based on additional Repeated Trust Game paradigm by introducing more adjustable environmental variables. The experiment intended to reflect more practical result distributions with more complex parameter.
+        - Individually implemented the whole experiment based on E-Prime and published the application online for data collection. More than 100 valid subjects results are collected within 2 months across different regions.
+        - Collected behavioral data was fed to a Hierarchical Bayesian Model analyzer and results showed that implicit variables, like the learning rate and reward prediction error, manifested significantly disparate patterns in different age groups.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: University of California, Berkeley
+      year: Jan 2022 - Dec 2022
       description:
+        - Serial Dependence on Visual Perception and Application in Diagnosis Error.
+        - Serial dependence refers to the biased visual mechanism contributing to stabilize out visual perception across time with various kinds of features and modalities. This research was especially applicable in the diagnostic error in radiologists toward medical image. The study of underlying mechanism of object stabilization was supervised and supported by the Visual Perception Lab at UC Berkeley.
+        - Preprocessed and analyzed subject records obtained from a medical student training application database using Python to explore and verify our guess on the existence and effect size of serial dependence.
+        - Iterative input variable adjustment and parameters refinement on the experimental design were conducted to probe how the differences of the tumor morph generated by generative adversarial network between continuous trials affect serial dependence.
+        - Designed and implemented a PsychoPy based wrapper program to fully automate the end to end experiment from online record queries to output analysis results. The program reduced the full experiment cycle time from hours to minutes.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Assistant
+      institution: University of California, Berkeley
+      year: Feb 2022 - Sep 2022
+      description:
+        - Context-Based Emotion Recognition Correlates with Autism-Spectrum Quotient Scores.
+        - This project aimed to deep dive how the nature of contextual information and emotional cues were combined in order to perceive emotion accurately in the brain, like from facial expressions to body movements, by recruiting dynamic inferential affect tracking(IAT) technique.
+        - Designed and implemented the experiment program with PsychoPy in Python and preprocessed the obtained data for further analysis.
+        - Incredible accuracy of context in perceiving emotion was shown when analyzing the correlation between the leave-one-out consensus of the fully informed condition and context-only condition via bootstrap and permutation across stimuli and subjects.
+        - Exercised Bayesian model, linear regression model and some other state-of-the-art analysis models respectively to quantify the roles of context and characters in emotion recognition. Results illustrated that Bayesian model outperformed other analysis model in this analysis.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Assistant
+      institution: University of Minnesota
+      year: Sep 2023 - May 2024
+      description:
+        - Contextual Cueing in Different Viewing Conditions Using “Mouse-Eye” Paradigm.
+        - A comprehensive study with gaze-contingent displays aimed to investigate whether central vision loss may prevent the incidental learning of contextual cues or expression of learning as a result of the loss of peripheral vision.
+        - Designed and implemented a series of PsychoPy based wrapper programs to fully automate the end to end studies from online behavioral experiments to output analysis results.
+        - Employed “Mouse-Eye” method, an alternative to traditional gaze-contingent eye tracking, which simulated peripheral scotoma and is effective for online scaling up.
+        - Peripheral vision loss impaired the learning of spatial contexts under tunnel view search, but facilitation became manifest when once the display was made fully visible.
+        - The difference of reaction time between identified and unidentified repeated configurations in testing phase depended on the explicit awareness of the configuration repetition.
+        -
+    - title: Research Assistant
+      institution: University of Minnesota
+      year: Sep 2023 - Present
+      description:
+        - Visual mode switching for glasses:\ Observers can learn to immediately correct spatial distortions produced by prescription lenses.
+        - Designed and implemented a Matlab based rectangle adjustment task using cancellation method to quantify individual spatial distortions as the perceptual consequence of wearing astigmatism spectacles.
+        - Guided observers to wear "size glasses" for two 2-hour sessions on each of five consecutive days in the pilot study.
+        - Despite idiosyncratic visual space distortion, there was faster and stronger recalibration towards the direction of the adapting skew across days upon wearing the glasses, revealing visual mode switching.
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023 - 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Department of Psychology Graduate Fellowship
+    - year: 2024
       items:
-        - Max Planck Medal
+        - Graduate Student Research & Travel Award
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Matlab
+        - Python
+        - R
+        - JavaScript
+        - C++
+    - title: Tools
       items:
-        - Description 1.
-        - Description 2.
+        - SPSS
+        - Mplus
+        - JASP
+        - PsychoPy
+        - E-Prime
+        - Qualtrics
+        - GitHub
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Go chess, piano, guinea pigs.
