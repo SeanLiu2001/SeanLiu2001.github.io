@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -20,6 +19,6 @@ social: true # includes social icons at the bottom of the page
 
 My name is Sean Liu and I am a PhD student in Cognitive and Brain Sciences in the Engel Vision & Imaging Laboratory, and Attention, Memory, and Cognition Lab 
 at the University of Minnesota, Twin Cities. 
-Before joining UC Berkeley, I received my Bachelor's Degree in Psychology at Beijing Normal University in 2023. 
+Before joining UMN, I received my Bachelor's Degree in Psychology at Beijing Normal University in 2023. 
 My research involves understanding human visual plasticity, especially how the visual system achieves stability 
 in a dynamic environment, through a multidisciplinary approach.
