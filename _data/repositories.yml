@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - SeanLiu2001
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - SeanLiu2001/mouseeye_cc_intactvision
+  - SeanLiu2001/mouseeye_cc_transfer
+  - SeanLiu2001/mouseeye_cc_Oritransfer
+  - SeanLiu2001/mouseeye_withwhiteplaceholder
