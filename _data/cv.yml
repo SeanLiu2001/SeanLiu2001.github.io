@@ -27,7 +27,9 @@
       year: 2019 - 2023
       description:
         - BS in Psychology
-        - Thesis: Serial dependence in the perception of looming stimuli
+        - title: Thesis
+          contents:
+            - Serial dependence in the perception of looming stimuli
 
 - title: Research Experience
   type: time_table
