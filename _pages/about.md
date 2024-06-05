@@ -8,7 +8,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>N218</p>
     <p>N218,</p>
     <p>75 E River Pkwy</p>
     <p>Minneapolis, MN 55455</p>
